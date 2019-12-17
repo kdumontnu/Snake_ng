@@ -1,0 +1,15 @@
+@import "../../../variables";
+
+.frame{
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  border-color: $dark;
+  border-style: solid;
+  border-radius: 4px;
+  .fill {
+    background: $white;
+    border-radius: 4px;
+    flex-grow: 1;
+  }
+}

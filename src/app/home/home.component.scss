@@ -1,16 +1,11 @@
-.container {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@import "../../variables";
 
-  background: url(../../assets/background.jpg) no-repeat center fixed;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
+.container {
+  background-color: $light;
 
   .title {
-    color: white;
+    color: $dark;
     margin: 0;
-    padding: 50px 20px;
+    padding: 10px 20px;
   }
 }

@@ -1,0 +1,12 @@
+@import "../../../variables";
+
+.snake {
+  position: absolute;
+}
+.segment {
+  position: absolute;
+  border-radius: 4;
+  border-style: solid;
+  border-color: $dark;
+  box-sizing: border-box;
+}
